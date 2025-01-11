@@ -1,0 +1,103 @@
+
+.login-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to left, #6a7eb8, #061599);
+    opacity: 0.6;
+    transition: 1.5s;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to left, #6a7eb8, #061599);
+    opacity: 1;
+    transition: 1.5s;
+}
+
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.form-footer a {
+    color: #213ec0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.form-footer a:hover {
+    color: #213ec0;
+    transition: 2s;
+}
+.hic{
+    color: rgb(25, 3, 102);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+input.line-input {
+    border: none;
+    border-bottom: 2px solid #004d6b; 
+    padding: 5px 0;
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+    animation: fadeIn 3s ease-out;
+    border-radius: 0;
+}
+
+input.line-input:focus {
+    border-bottom-color: #02187c; 
+}
+
+.hidden {
+    animation: fadeOut 4s ease-out forwards; 
+}

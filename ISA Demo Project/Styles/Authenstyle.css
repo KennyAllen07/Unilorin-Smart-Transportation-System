@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: linear-gradient(to right, #6a11cb, #2575fc); */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    transition-property: all;
+    transition: 1s;
+}
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    display: block;
+}
+
+

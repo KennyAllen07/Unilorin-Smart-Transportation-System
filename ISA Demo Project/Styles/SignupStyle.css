@@ -1,0 +1,118 @@
+
+
+.signup-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    /* background: #5bcb11; */
+    background: linear-gradient(to right, #074db6, #03118a);
+    opacity: 0.6;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to right, #074db6, #03118a);
+    opacity: 1;
+    transition: 2s;
+}
+
+.form-footer {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.form-footer .btn-login {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #074db6, #03118a);
+    opacity: 0.8;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.3s;
+    margin-top: 1rem;
+    transition: 2s;
+}
+
+.form-footer .btn-login:hover {
+    background: linear-gradient(to right, #074db6, #03118a);
+    opacity: 1;
+    transition: 2s;
+}
+
+.hic{
+    color: rgb(25, 3, 102);
+}
+
+.mik{
+    color: rgb(228, 111, 2);
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+input.line-input {
+    border: none;
+    border-bottom: 2px solid #004d6b; 
+    padding: 5px 0;
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+    animation: fadeIn 3s ease-out;
+    border-radius: 0;
+}
+
+input.line-input:focus {
+    border-bottom-color: #02187c; 
+}
+
+.hidden {
+    animation: fadeIn 4s ease-out forwards; 
+}

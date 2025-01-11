@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="../Styles/Profile.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="profile-section">
+            <img src="https://via.placeholder.com/40" alt="Profile Picture" class="profile-pic" onclick="toggleDropdown()">
+            <div id="dropdown" class="dropdown-content">
+                <div class="account-info">
+                    <img src="https://via.placeholder.com/50" alt="Profile Picture" class="profile-pic-dropdown">
+                    <div class="account-details">
+                        <p class="account-name">Student name</p>
+                        <p class="account-email">student@gmail.com</p>
+                    </div>
+                </div>
+                <div class="sign-out">
+                    <button onclick="signOut()" >Sign Out</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/Profile.js"></script>
+</body>
+</html>
