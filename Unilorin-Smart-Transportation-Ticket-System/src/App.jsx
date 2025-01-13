@@ -1,0 +1,14 @@
+import { useState } from 'react';
+import './global.css';
+import Dashboard from './layout/Dashboard/Dashboard';
+
+function App() {
+
+  return (
+    <>
+      <Dashboard />
+    </>
+  )
+}
+
+export default App;
